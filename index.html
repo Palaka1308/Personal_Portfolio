@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Palak's Portfolio</title>
+        <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+
+        <!-- Page Loader Start -->
+        <div class="page-loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- Page Loader End -->
+
+        <!-- Background Circles Start -->
+        <div class="bg-circles">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div class="circle-3"></div>
+            <div class="circle-4"></div>
+        </div>
+        <!-- Background Circles End -->
+
+        <!-- Overlay Start -->
+        <div class="overlay">
+        </div>
+        <!-- Overlay End -->
+
+
+        <!-- Main Start -->
+        <div class="main hidden">
+
+            <!-- Header Start -->
+            <header class="header">
+                <div class="container">
+                    <div class="row flex-end">
+                        <button type="button" class="nav-toggler">
+                            <span></span>
+                        </button>
+                        <nav class="nav">
+                            <div class="nav-inner">
+                                <ul>
+                                    <li><a href="#home" class="nav-item link-item">home</a></li>
+                                    <li><a href="#about" class="nav-item link-item">about</a></li>
+                                    <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                                    <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- Header End -->
+
+            <!-- Home Section Start -->
+            <section class="home-section align-items-center" id="home">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="home-text">
+                            <p>Hello I am</p>
+                            <h1>palak agrawal</h1>
+                            <h2>student of BCA</h2>
+                            <a href="#about" class="btn link-item">more about me</a>
+                            <a href="#portfolio" class="btn link-item">portfolio</a>
+                        </div>
+                        <div class="home-img">
+                            <div class="img-box">
+                                <img src="Images/Portfolio/profile.png" alt="profile-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Home Section End -->
+
+            <!-- About Section Start -->
+            <section class="about-section sec-padding" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>about me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-img">
+                            <div class="img-box">
+                                <img src="Images/Portfolio/about.png" alt="about img">
+                            </div>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Hello, I'm Palak Agrawal, Pursuing BCA with a skills in programming, 
+                                 web development with a background in Computer Science. 
+                                 Seeking an opportunity to leverage my skills and highly motivated to  
+                                 contribute to a dynamic team and grow professionally in a supportive and 
+                                 innovative environment within a forward – thinking company.
+                            </p>
+                            <h3>skills</h3>
+                            <div class="skills">
+                                <div class="skill-item">html</div>
+                                <div class="skill-item">css</div>
+                                <div class="skill-item">java</div>
+                                <div class="skill-item">python</div>
+                                <div class="skill-item">SQL</div>  
+                                <div class="skill-item">MS Office Suits</div>                          
+                            </div>
+                            <div class="about-tabs">
+                                <button type="button" class="tab-item active" data-target="#education">education</button> 
+                            </div>
+
+                            <!-- Education Start -->
+                            <div class="tab-content active" id="education">
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <span class="date">2022 - Present</span>
+                                        <h4>bachelor of computer application - <span>Dr. Virendra Swaroop Institute of Computer Studies</span></h4>
+                                        <p>
+                                            I am pursuing BCA from Dr. Virendra Swaroop Institute of Computer Studies Kanpur from Computer Science
+                                            and Engineering.
+                                            <br>
+                                            <b>CGPA (Till 5<sup>th</sup> sem): 7.09</b>
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <span class="date">2021 - 2022</span>
+                                        <h4>Intermediate - <span>C S Lakhanpur Shoor Sangipur</span></h4>
+                                        <p>
+                                            I had completed my class 12 from UP Board.
+                                            <br>
+                                            <b>Percentage : 61%</b>
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <span class="date">2017 - 2018</span>
+                                        <h4>High School - <span>GBS Public School</span></h4>
+                                        <p>
+                                            I had completed my class 10 from CBSE Board.
+                                            <br>
+                                            <b>Percentage : 55%</b>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Education End -->
+
+                            <a href="PalakAgrawal_Resume.pdf" target="_blank" class="btn">download cv</a>
+                            <a href="#contact" class="btn link-item">contact me</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About Secion End -->
+
+            <!-- Portfolio Section Start -->
+            <section class="portfolio-section sec-padding" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>recent work</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="Images/Portfolio/1.png" alt="portfolio item thumbnail">
+                            </div>
+                            <h3 class="portfolio-item-title">personal portfolio</h3>
+                            <button type="button" class="btn view-project-btn">view project</button>
+                            <div class="portfolio-item-details">
+                                <div class="description">
+                                    <p>
+                                        I have thoroughly crafted a personal portfolio that embodies 
+                                        my journey, skills, and accomplishments in a captivating manner.
+                                        It's a collection that reflects my passion for web development and 
+                                        my commitment to delivering great user experiences. 
+                                    </p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                        <!-- <li>Created - <span>5 oct 2024</span></li> -->
+                                        <li>Technologies used - <span>Html, CSS, Javascript</span></li>
+                                        <!-- <li>Role -<span>Frontend</span></li> -->
+                                        <!-- <li>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item End -->
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="images/Portfolio/2.png" alt="portfolio item thumbnail">
+                            </div>
+                            <h3 class="portfolio-item-title">whiteboard app</h3>
+                            <button type="button" class="btn view-project-btn">view project</button>
+                            <div class="portfolio-item-details">
+                                <div class="description">
+                                    <p>
+                                        I am currently in the process of crafting for a whiteboard
+                                        app that enables users to collaborate and draw on a virtual 
+                                        canvas in real time. it offers features like drawing tools, 
+                                         save as image making it easy and efficiently.
+                                    </p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                        <!-- <li>Created - <span>5 oct 2024</span></li> -->
+                                        <li>Technologies used - <span>Html, CSS, Javascript</span></li>
+                                        <!-- <li>Role -<span>Frontend</span></li> -->
+                                        <!-- <li>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item End --> 
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="images/Portfolio/3.png" alt="portfolio item thumbnail">
+                            </div>
+                            <h3 class="portfolio-item-title">Weather Forecast Application</h3>
+                            <button type="button" class="btn view-project-btn">view project</button>
+                            <div class="portfolio-item-details">
+                                <div class="description">
+                                    <p>
+                                        I am presently engaged in the development of a sophisticated 
+                                        weather forecast application. Through meticulous design and 
+                                        technical finesse, this app will seamlessly deliver real-time 
+                                        weather updates to users. 
+                                    </p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                        <!-- <li>Created - <span>5 july 2024</span></li> -->
+                                        <li>Technologies used - <span>Html, CSS, Javascript</span></li>
+                                        <!-- <li>Role -<span>Frontend</span></li> -->
+                                        <!-- <li>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item End -->
+                         <!-- Portfolio Item Start -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="images/Portfolio/4.png" alt="portfolio item thumbnail">
+                            </div>
+                            <h3 class="portfolio-item-title">to-do list app</h3>
+                            <button type="button" class="btn view-project-btn">view project</button>
+                            <div class="portfolio-item-details">
+                                <div class="description">
+                                    <p>
+                                        I am currently in the process of crafting for a to-do list
+                                        app that designed to help users to organize and manage their  
+                                        daily tasks and activities. This project focuses on clean, 
+                                        user-friendly interface to ensuring better time management 
+                                        and productivity.
+                                    </p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                        <!-- <li>Created - <span>5 oct 2024</span></li> -->
+                                        <li>Technologies used - <span>Python</span></li>
+                                        <!-- <li>Role -<span>Frontend</span></li> -->
+                                        <!-- <li>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item End --> 
+                        <!-- Portfolio Item Start -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="images/Portfolio/5.png" alt="portfolio item thumbnail">
+                            </div>
+                            <h3 class="portfolio-item-title">tic tac toe game</h3>
+                            <button type="button" class="btn view-project-btn">view project</button>
+                            <div class="portfolio-item-details">
+                                <div class="description">
+                                    <p>
+                                        I am currently in the process of crafting a tic tac toe game 
+                                        where players take turns making spaces on a 3x3 grid with  
+                                        "X" or "O".The game ends when one player wins, 
+                                        or if the grid is filled without a winner, resulting in a draw. 
+                                        
+                                    </p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                        <!-- <li>Created - <span>6 oct 2024</span></li> -->
+                                        <li>Technologies used - <span>Html, CSS, Javascript</span></li>
+                                        <!-- <li>Role -<span>Frontend</span></li> -->
+                                        <!-- <li>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item End -->
+                         <!-- Portfolio Item Start -->
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="images/Portfolio/6.png" alt="portfolio item thumbnail">
+                            </div>
+                            <h3 class="portfolio-item-title">airline reservation system</h3>
+                            <button type="button" class="btn view-project-btn">view project</button>
+                            <div class="portfolio-item-details">
+                                <div class="description">
+                                    <p>
+                                        I am currently in the process of crafting for a Airline 
+                                        Reservation System that designed to streamline the booking process
+                                        for users. It allows users to search for available flights, 
+                                        select seats, and make bookings.
+                                    </p>
+                                </div>
+                                <div class="general-info">
+                                    <ul>
+                                        <!-- <li>Created - <span>5 oct 2024</span></li> -->
+                                        <li>Technologies used - <span>Java</span></li>
+                                        <!-- <li>Role -<span>Frontend</span></li> -->
+                                        <!-- <li>View Online -<span><a href="#" target="_blank">www.domain.com</a></span></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio Item End --> 
+                    </div>
+                </div>
+            </section>
+            <!-- Portfolio Section End -->
+
+            <!-- Contact Section Start -->
+            <section class="contact-section sec-padding" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>contact me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contact-form">
+                            <form action="https://formspree.io/f/mwpkjrga"
+                            method="POST">
+                                <div class="row">
+                                    <div class="input-group">
+                                        <input type="text" name="username" placeholder="Name" class="input-control" required autocomplete="off">
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="email" name="email" placeholder="Email" class="input-control" required autocomplete="off">
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="text" name="subject" placeholder="Subject" class="input-control" required autocomplete="off">
+                                    </div>
+                                    <div class="input-group">
+                                        <textarea name="textarea" placeholder="Message" class="input-control" required autocomplete="off"></textarea>
+                                    </div>
+                                    <div class="submit-btn">
+                                        <button type="submit" class="btn">send message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-info-item">
+                                <h3>Email</h3>
+                                <p><a href="mailto:palakagarwal598@gmail.com">palakagarwal598@gmail.com</a></p>
+                            </div>
+                            <div class="contact-info-item">
+                                <h3>Phone</h3>
+                                <p><a href="tel:+91 8468076009">+91 8468076009</a></p>
+                            </div>
+                            <div class="contact-info-item">
+                                <h3>follow me</h3>
+                                <div class="social-links">
+                                    <a href="https://www.linkedin.com/in/palak-agrawal-15b947321" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://www.instagram.com/palakagrawal_13/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://github.com/Palaka1308" target="_blank"><i class="fab fa-github"></i></a>
+                                    <a href="https://wa.me/8468076009" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact Section End -->
+
+        </div>
+        <!-- Main End -->
+
+        <!-- Portfolio Item Details Popup Start -->
+        <div class="portfolio-popup">
+            <div class="pp-inner">
+                <div class="pp-content">
+                    <div class="pp-header">
+                        <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                        <div class="pp-thumbnail">
+                            <img src="images/Portfolio/2.jpg" alt="pp.thumbnail">
+                        </div>
+                        <h3></h3>
+                    </div>
+                    <div class="pp-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Item Details Popup End -->
+    </body>
+</html>
