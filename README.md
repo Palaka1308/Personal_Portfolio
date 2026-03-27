@@ -8,10 +8,10 @@ I am a student of Master of Computer Application.
 I enjoy building projects that solve real-world problems using modern technologies.
 
 ## Features
-- Clean and responsive design
-- Project showcase section
-- Skills and technologies overview
-- Contact information for collaboration
+- Clean and responsive design.
+- Project showcase section.
+- Skills and technologies overview.
+- Contact information for collaboration.
 
 ## Technologies Used
 - HTML
