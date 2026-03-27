@@ -22,7 +22,7 @@ I enjoy building projects that solve real-world problems using modern technologi
 Some projects featured in my portfolio include:
 - My Portfolio website
 - Weather Forecasting Website 
-- Whiteboard App
+- AI-Driven Archaeological Site Mapping
 
 ## Purpose of this Repository
 The purpose of this repository is to host the code for my portfolio website and demonstrate my work and skills to recruiters and collaborators.
